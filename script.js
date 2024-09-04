@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cityInput = document.getElementById('cityInput');
     const weatherResult = document.getElementById('weatherResult');
 
-    const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+    const apiKey = '6e0940d21e2216269c0eedc6dedcd96b'; // Replace with your OpenWeatherMap API key
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
     getWeatherBtn.addEventListener('click', () => {
